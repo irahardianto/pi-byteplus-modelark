@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Bump version and publish
-        uses: phips28/gh-action-bump-version@v10
+        uses: phips28/gh-action-bump-version@v10.0.3
         id: version
         with:
           commit-message: 'chore: release v{{version}}'
