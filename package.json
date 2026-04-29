@@ -1,0 +1,29 @@
+{
+  "name": "pi-byteplus-modelark",
+  "version": "1.0.0",
+  "description": "Pi extension for BytePlus ModelArk Coding Plan — registers ModelArk as a custom OpenAI-compatible provider with all supported coding models.",
+  "keywords": [
+    "pi-package",
+    "byteplus",
+    "modelark",
+    "coding-plan",
+    "seed-code",
+    "deepseek",
+    "glm",
+    "kimi"
+  ],
+  "license": "MIT",
+  "author": "irahardianto",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irahardianto/byteplus-modelark"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
