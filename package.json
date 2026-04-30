@@ -1,6 +1,6 @@
 {
   "name": "pi-byteplus-modelark",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Pi extension for BytePlus ModelArk Coding Plan — registers ModelArk as a custom OpenAI-compatible provider with all supported coding models.",
   "keywords": [
     "pi-package",
